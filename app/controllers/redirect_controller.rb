@@ -1,4 +1,8 @@
 class RedirectController < ApplicationController 
+  def home
+    redirect_to "https://www.wildvillage.com"
+  end
+
   def index
     short_slug = params[:hex]
     klass = get_class(short_slug[0])
