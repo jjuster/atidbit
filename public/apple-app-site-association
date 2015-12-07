@@ -1,0 +1,28 @@
+{
+  "applinks":
+  {
+    "apps": [],
+    "details":
+    [
+      {
+        "appID": "MYY6ZL6XVQ.com.wildvillage.tigerslovepepper",
+        "paths":["/f*"]
+      },
+      { "appID":"MYY6ZL6XVQ.com.wildvillage.babiescomefromstorks",
+        "paths":["/e*"]
+      },
+      { "appID":"MYY6ZL6XVQ.com.wildvillage.chickenscrossroads",
+        "paths":["/j*"]
+      },
+      { "appID":"MYY6ZL6XVQ.com.wildvillage.tidbits-quotes",
+        "paths":["/q*"]
+      },
+      { "appID":"MYY6ZL6XVQ.com.wildvillage.tidbits-thoughts",
+        "paths":["/h*"]
+      },
+      { "appID":"MYY6ZL6XVQ.com.wildvillage.tidbits-tips",
+        "paths":["/t*"]
+      }
+    ]
+  }
+}
