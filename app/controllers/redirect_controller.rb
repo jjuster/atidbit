@@ -1,13 +1,13 @@
 class RedirectController < ApplicationController 
   def home
-    redirect_to "https://www.wildvillage.com"
+    redirect_to "https://wildvillage.com"
   end
 
   def index
     short_slug = params[:hex]
     klass = get_class(short_slug[0])
     id = convert_hex_id(short_slug.slice(1, short_slug.length))
-    redirect_to "https://www.wildvillage.com/tidbits/#{klass}/#{id}"
+    redirect_to "https://wildvillage.com/tidbits/#{klass}/#{id}"
   end
 
   private
