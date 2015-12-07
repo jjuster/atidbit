@@ -10,6 +10,10 @@ class RedirectController < ApplicationController
     redirect_to "https://wildvillage.com/tidbits/#{klass}/#{id}"
   end
 
+  def apple_cert
+    render :json => render_to_string('redirect/_apple_cert.json', :layout => false)
+  end
+
   private
 
   def convert_hex_id(hex)
