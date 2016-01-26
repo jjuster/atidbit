@@ -34,6 +34,10 @@ class RedirectController < ApplicationController
       "thoughts"
     when "t"
       "tips"
+    when "y"
+      "historical_explanations"
+    when "s"
+      "scientific_explanations"
     else
       nil
     end    
