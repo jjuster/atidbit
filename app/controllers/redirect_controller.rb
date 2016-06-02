@@ -7,7 +7,7 @@ class RedirectController < ApplicationController
     short_slug = params[:hex]
     klass = get_class(short_slug[0])
     id = convert_hex_id(short_slug.slice(1, short_slug.length))
-    redirect_to "https://wildvillage.com/tidbits/#{klass}/#{id}"
+    redirect_to "https://wildvillage.com/tidbits/#{klass}/#{id}#{"?o" if params.has_key? "o"}"
   end
 
   def apple_cert
